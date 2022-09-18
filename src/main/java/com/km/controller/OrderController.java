@@ -20,7 +20,7 @@ import com.km.repository.OrderRepository;
 import com.km.service.OrderService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:2300")
+@CrossOrigin(origins = "*")
 public class OrderController {
 	
 	@Autowired
